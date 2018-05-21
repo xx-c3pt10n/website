@@ -53,7 +53,7 @@ body, html {
 
 .ptext {
   position: absolute;
-  top: 50%;
+  top: 30%;
   width:100%;
   text-align: center;
   color: #000;
@@ -68,11 +68,6 @@ body, html {
   color: #fff;
   padding: 30px;
 }
-
-.ptext .border.trans {
-  background-color: transparent;
-}
-
 
 .downBtnp {
   position: absolute;
@@ -130,6 +125,13 @@ a { color: #111; text-decoration: none; }
     background-attachment: scroll;
   }
   .column {
-        width: 100%;
-    }
+    width: 100%;
+  }
+  .ptext {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
+  .ptext .border {
+    padding: 20px;
+  }
 }
